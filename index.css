@@ -91,7 +91,7 @@ nav a{
 }
 
 .img1 img {
-  width: 100%;
+  width: 90%;
   top: 0;
   left: 0;
   right: 0;
@@ -101,7 +101,7 @@ nav a{
 
 .img2 img {
   width: 75%;
-  top: 10%;
+  top: 13%;
   left: 0;
   right: 0;
   margin: auto; 
