@@ -36,6 +36,9 @@ nav a{
     color: #f3a250 
   
 }
+.lightclr{
+    color:#f3a250 ;
+}
 
 .content{
     gap: 30px;
@@ -131,6 +134,73 @@ nav a{
   margin: auto; 
 }
 
+.mission {
+  font-family: "Open Sans", sans-serif;
+  color: #555;
+}
+
+.mission h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px; 
+  font-family: "Yeseva One", serif;
+  color:#E53935;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  width: 1128px;
+  height: auto;
+  justify-content: center;
+}
+.card:nth-child(1){
+    background-color: #b9d2d4;}
+
+    .card:nth-child(2){
+        background-color: #e2ccaf;}
+
+        .card:nth-child(3){
+            background-color: #e1d6ff;}
+   
+  .card {
+  width: 150px; 
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+    margin: 10% 50%;
+}
+
+.card:hover {
+  background-color: #ddcfcf;
+  box-shadow: 5px 12px 25px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+  transition: color 0.4s;
+  text-align: center;
+}
+
+.card:hover h2 {
+  color: #ff5722;
+}
+
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.card:hover p {
+  letter-spacing: 0.2px;
+}
+
+
 @media (max-width: 979px) {  
     .headleft{
     font-size: 30px;
@@ -172,6 +242,10 @@ nav a{
     width: 50%;
     top: -3%;
   }
+   .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
 }
 
 @media (max-width: 767px) {
@@ -205,6 +279,9 @@ nav a{
     width: 47%;
     top: -3%;
   }
+    .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media (max-width: 689px){
@@ -236,10 +313,13 @@ nav a{
     width: 47%;
     top: 9%;
   }
-     
+     .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
 }
 
-@media (max-width: 510px) {
+@media (max-width: 528px) {
 
     .head1{
         font-size: 20px;
@@ -258,9 +338,12 @@ nav a{
   .headleft{
     font-size: 20px;
     font-weight: 300;} 
+     .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
 
 }
-@media (max-width: 528px) {
+@media (max-width: 510px) {
   .main {
     flex-direction: column;
     padding: 25px;
@@ -286,7 +369,12 @@ nav a{
     width: 54%;
     top: -2px;
   }
+  .cards {
+  display: grid;
+  grid-template-columns: 1fr ;
 }
+}
+
 
 
 
