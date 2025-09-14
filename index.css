@@ -13,7 +13,7 @@
  #difClr{
     color:#E53935 ;
     text-decoration: overline;
- }   
+ }  
 
 nav a{
     text-decoration: none;
@@ -37,6 +37,17 @@ nav a{
   
 }
 
+.content{
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 600;   
+    display: flex;
+    align-items: center;
+    color: #f3a250 
+  
+}
+
+
 .btn{
     background-color: #E53935;
     color: white;
@@ -44,6 +55,11 @@ nav a{
     border-radius: 5px;
     border: none;
     font-weight: 600;    ;
+}
+
+.bar{
+    display: none;
+    color:#E53935
 }
 
 .opnsns{
@@ -114,6 +130,164 @@ nav a{
   right: 0;
   margin: auto; 
 }
+
+@media (max-width: 979px) {  
+    .headleft{
+    font-size: 30px;
+    font-weight: 700;} 
+    
+    .head1{
+        font-size: 23px;
+        font-weight: 300;
+    }
+
+    .headright{
+        gap: 20px;
+        font-size: 18px;
+        font-weight: 500;   
+    }
+  .main {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .imgmain {
+    width: 320px;
+    height: 320px;
+    margin: 30px auto;
+  }
+
+  .img1 img {
+    width: 85%;
+  }
+
+  .img2 img {
+    width: 70%;
+    top: 15%;
+  }
+
+  .img3 img {
+    width: 50%;
+    top: -3%;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .headmain{
+    padding: 15px 20px;
+    gap: 10px;
+  }
+
+  .main {
+    justify-content: space-around;
+    padding: 15px;
+  }
+
+  .imgmain {
+    width: 280px;
+    height: 280px;
+    margin: 20px auto;
+  }
+
+  .img1 img {
+    width: 80%;
+  }
+
+  .img2 img {
+    width: 65%;
+    top: 19%;
+  }
+
+  .img3 img {
+    width: 47%;
+    top: -3%;
+  }
+}
+
+@media (max-width: 689px){
+    .headmain{
+       justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        gap: 30px;
+    }
+
+    .headright{
+        display: none;
+    }
+
+    .bar{
+        display: block;
+        font-size: 25px;
+    }
+     
+    .img1 img {
+    width: 76%;
+  }
+    .img2 img {
+    width: 63%;
+    top: 29%;
+  }
+
+  .img3 img {
+    width: 47%;
+    top: 9%;
+  }
+     
+}
+
+@media (max-width: 510px) {
+
+    .head1{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .img2 img {
+    width: 63%;
+    top: 24%;
+  }
+
+  .img3 img {
+    width: 47%;
+    top: 4%;
+  }
+
+  .headleft{
+    font-size: 20px;
+    font-weight: 300;} 
+
+}
+@media (max-width: 528px) {
+  .main {
+    flex-direction: column;
+    padding: 25px;
+    gap: 25px;
+  }
+
+  .imgmain {
+    width: 220px;
+    height: 220px;
+    margin: 15px auto;
+  }
+
+  .img1 img {
+    width: 85%;
+  }
+
+  .img2 img {
+    width: 70%;
+    top: 16%;
+  }
+
+  .img3 img {
+    width: 54%;
+    top: -2px;
+  }
+}
+
 
 
 
