@@ -15,6 +15,12 @@
     text-decoration: overline;
  }  
 
+ 
+ .red{
+    color:#E53935 ;
+ }  
+
+
 nav a{
     text-decoration: none;
     color: #555555
@@ -64,7 +70,9 @@ nav a{
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
-    font-weight: 600;    ;
+    font-weight: 600;    
+    size: 20px;
+    font-size: 19px;
 }
 
 .bar{
@@ -229,6 +237,25 @@ nav a{
   height: 500px; 
   border-radius: 12px;
 }
+.hd1{
+  justify-content: center;
+  text-align: center;
+}
+
+.app img{
+    width: 740px;   
+  height: 600px; 
+  border-radius: 12px;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  font-size: 19px;
+}
+
 
 @media (max-width: 979px) {  
     .headleft{
@@ -296,6 +323,7 @@ nav a{
   height: 300px; 
   border-radius: 9px;
 }
+
 }
 
 @media (max-width: 767px) {
