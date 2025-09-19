@@ -103,51 +103,6 @@ nav a{
     padding:0px 40px 0px 20px;
     margin-left: 50px;
 }
-.main{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 0px 0px 20px;
-    padding: 0px 60px ;
-   
-}
-.imgmain {
-  position: relative;
-  width: 400px;   
-  height: 400px; 
-  margin: 50px auto;
-}
-
-.imgmain img {
-  position: absolute;
-  max-width: 100%;
-  height: auto;
-}
-
-.img1 img {
-  width: 90%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;   
-}
-
-.img2 img {
-  width: 75%;
-  top: 13%;
-  left: 0;
-  right: 0;
-  margin: auto; 
-}
-
-.img3 img {
-  width: 55%;
-  top: -5%;
-  left: 0;
-  right: 0;
-  margin: auto; 
-}
 
 .mission {
   font-family: "Open Sans", sans-serif;
@@ -272,32 +227,7 @@ footer {
         font-size: 18px;
         font-weight: 500;   
     }
-  .main {
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    margin: 0;
-  }
-
-  .imgmain {
-    width: 320px;
-    height: 320px;
-    margin: 30px auto;
-  }
-
-  .img1 img {
-    width: 85%;
-  }
-
-  .img2 img {
-    width: 70%;
-    top: 15%;
-  }
-
-  .img3 img {
-    width: 50%;
-    top: -3%;
-  }
+  
    .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -331,31 +261,6 @@ footer {
   .headmain{
     padding: 15px 20px;
     gap: 10px;
-  }
-
-  .main {
-    justify-content: space-around;
-    padding: 15px;
-  }
-
-  .imgmain {
-    width: 280px;
-    height: 280px;
-    margin: 20px auto;
-  }
-
-  .img1 img {
-    width: 80%;
-  }
-
-  .img2 img {
-    width: 65%;
-    top: 19%;
-  }
-
-  .img3 img {
-    width: 47%;
-    top: -3%;
   }
   .cards {
     grid-template-columns: 1fr 1fr;
@@ -404,18 +309,6 @@ footer {
         font-size: 25px;
     }
      
-    .img1 img {
-    width: 76%;
-  }
-    .img2 img {
-    width: 63%;
-    top: 29%;
-  }
-
-  .img3 img {
-    width: 47%;
-    top: 9%;
-  }
      .cards {
   display: grid;
   grid-template-columns: 1fr 1fr ;
@@ -433,15 +326,6 @@ footer {
         font-size: 20px;
         font-weight: 300;
     }
-    .img2 img {
-    width: 63%;
-    top: 31%;
-  }
-
-  .img3 img {
-    width: 47%;
-    top: 17%;
-  }
 
   .headleft{
     font-size: 20px;
@@ -468,31 +352,7 @@ footer {
 
 }
 @media (max-width: 510px) {
-  .main {
-    flex-direction: column;
-    padding: 25px;
-    gap: 25px;
-  }
-
-  .imgmain {
-    width: 220px;
-    height: 220px;
-    margin: 15px auto;
-  }
-
-  .img1 img {
-    width: 85%;
-  }
-
-  .img2 img {
-    width: 70%;
-    top: 16%;
-  }
-
-  .img3 img {
-    width: 54%;
-    top: -2px;
-  }
+ 
   .cards {
   display: grid;
   grid-template-columns: 1fr ;
