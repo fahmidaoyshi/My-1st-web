@@ -380,6 +380,11 @@ footer {
   height: 250px; 
   border-radius: 7px;
 }
+
+footer {
+  padding: 29px;
+  font-size: 17px;
+}
 }
 
 @media (max-width: 689px){
@@ -456,6 +461,11 @@ footer {
   flex-direction: column-reverse;
 }
 
+footer {
+  padding: 25px;
+  font-size: 14px;
+}
+
 }
 @media (max-width: 510px) {
   .main {
@@ -511,6 +521,12 @@ footer {
   .container{
   flex-direction: column-reverse;
 }
+
+footer {
+  padding: 22px;
+  font-size: 12px;
+}
+
 }
 
 
