@@ -6,10 +6,13 @@
      justify-content: space-between;
      padding: 20px 80px;
      background-color: #fadfca;
-     position: sticky; 
      border-radius: 5px;
     }
-
+  
+  .hdM{
+    position: sticky;
+    top: 0%;
+  }
  #difClr{
     color:#E53935 ;
     text-decoration: overline;
@@ -211,6 +214,17 @@ footer {
   font-size: 19px;
 }
 
+@media (max-width: 1352px){
+
+.hd1{
+  justify-content: center;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+}
+
 @media (max-width: 979px) {  
     .headleft{
     font-size: 30px;
@@ -220,7 +234,11 @@ footer {
         font-size: 23px;
         font-weight: 300;
     }
-
+  .hd1{
+  justify-content: center;
+  text-align: center;
+  font-size: 35px;
+}
     .headright{
         gap: 20px;
         font-size: 18px;
@@ -237,8 +255,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 1%;
-  gap: 8px;
+  padding: 20x 1%;
+  gap: 50px;
+
 }
 
 .Explore img {
@@ -252,6 +271,36 @@ footer {
   height: 300px; 
   border-radius: 9px;
 }
+
+.main p{
+   font-size: 20px;   
+ max-height: 17x;
+}
+.main h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main button{
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.byhead{
+ font-size: 20px;
+    font-weight: 500;
+}
+
+.bybutton{
+   font-size: 14px;
+    font-weight: 200;
+}
+.optn1 h3{
+   font-size: 20px;
+    font-weight: 500;
+}
+.optn1 p{
+    font-size: 20px;}
 
 }
 
@@ -269,8 +318,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 18px 1%;
-  gap: 9px;
+  padding: 15px 1%;
+  gap: 50px;
   margin: 0px 10px;
 }
 
@@ -289,6 +338,37 @@ footer {
   padding: 29px;
   font-size: 17px;
 }
+.main p{
+   font-size: 18px;   
+ max-height: 17x;
+}
+.main h1{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.main button{
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.byhead{
+ font-size: 17px;
+    font-weight: 500;
+}
+
+.bybutton{
+   font-size: 11px;
+    font-weight: 200;
+}
+.optn1 h3{
+   font-size: 17px;
+    font-weight: 500;
+}
+.optn1 p{
+    font-size: 18px;}
+
+
 }
 
 @media (max-width: 689px){
@@ -320,8 +400,8 @@ footer {
 }
 
 .card p {
-  font-size: 11px;
-  font-weight: 300;
+  font-size: 13px;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -336,11 +416,14 @@ footer {
 }
 
 .main p{
-   font-size: 13px;
+   font-size: 14px;
+}
+.headleft{
+  font-size: 25px;
 }
 .main h1{
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 10px;
+    font-weight: 400;
 }
 
 .main button{
@@ -357,7 +440,10 @@ footer {
    font-size: 9px;
     font-weight: 200;
 }
-
+.optn1 h3{
+   font-size: 16px;
+    font-weight: 500;
+}
 .optn1 p{
     font-size: 12px;}
 }
