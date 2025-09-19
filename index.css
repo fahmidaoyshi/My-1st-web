@@ -211,7 +211,6 @@ footer {
   font-size: 19px;
 }
 
-
 @media (max-width: 979px) {  
     .headleft{
     font-size: 30px;
@@ -312,12 +311,55 @@ footer {
      .cards {
   display: grid;
   grid-template-columns: 1fr 1fr ;
+
+}
+
+.mission h1{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.card p {
+  font-size: 11px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 14px;
+  font-weight: 400;
 }
 .Explore {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.main p{
+   font-size: 13px;
+}
+.main h1{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.main button{
+    font-size: 9px;
+    font-weight: 200;
+}
+
+.byhead{
+ font-size: 16px;
+    font-weight: 500;
+}
+
+.bybutton{
+   font-size: 9px;
+    font-weight: 200;
+}
+
+.optn1 p{
+    font-size: 12px;}
 }
 
 @media (max-width: 528px) {
@@ -340,7 +382,6 @@ footer {
   display: flex;
    flex-direction: column;
 }
-
   .container{
   flex-direction: column-reverse;
 }
