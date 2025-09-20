@@ -225,7 +225,7 @@ footer {
 
 }
 
-@media (max-width: 979px) {  
+@media (max-width: 1024px) {  
     .headleft{
     font-size: 30px;
     font-weight: 700;} 
@@ -304,7 +304,7 @@ footer {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
   .headmain{
     padding: 15px 20px;
@@ -475,6 +475,26 @@ footer {
 footer {
   padding: 25px;
   font-size: 14px;
+}
+
+
+.main h1{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main button{
+    font-size: 9px;
+    font-weight: 300;
+}
+
+.bybutton{
+   font-size: 9px;
+    font-weight: 400;
+}
+
+.optn1 p{
+    font-weight: 300;
 }
 
 }
